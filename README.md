@@ -1,6 +1,4 @@
-# A model
+# A model track animation
 
 A tasks list:
-  - first
-  - second
-  - third 
+  - to make a car move along a track
