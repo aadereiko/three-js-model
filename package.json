@@ -1,0 +1,30 @@
+{
+  "name": "three-js-model",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx webpack --watch --mode=development",
+    "prod": "npx webpack --mode=production",
+    "start-dev": "webpack serve --mode=development"
+  },
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "gltf-webpack-loader": "^1.0.6",
+    "three": "^0.124.0"
+  },
+  "license": "ISC"
+}

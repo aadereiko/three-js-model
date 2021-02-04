@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#scene-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#scene-container canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#action-helper {
+  position: fixed;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+  max-width: 200px;
+  z-index: 10;
+
+  word-wrap: break-word;
+
+  text-align: center;
+  color: #103442;
+}
